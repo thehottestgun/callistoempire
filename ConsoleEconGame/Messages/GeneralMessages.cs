@@ -1,12 +1,8 @@
 ﻿namespace ConsoleEconGame.Messages;
 
-public class GeneralMessages
+public static class GeneralMessages
 {
-    public static string HelloMessage()
-    {
-        return
-            @"Welcome to [underline violet]Callisto Empire[/], the newest and most advanced human colony in this part of the cluster. (...)";
-    }
+    public const string HelloMessage = @"Welcome to [underline violet]Callisto Empire[/], the newest and most advanced human colony in this part of the cluster. (...)";
 
     public static string StartBackstoryCreation(string name)
     {
